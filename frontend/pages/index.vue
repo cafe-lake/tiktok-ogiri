@@ -1,5 +1,7 @@
 <template>
-  <Tutorial/>
+  <div>
+    TikTok大喜利
+  </div>
 </template>
 
 <script lang="ts">
