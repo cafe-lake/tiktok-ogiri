@@ -1,6 +1,7 @@
 <template>
   <div>
-    TikTok大喜利
+    <div>TikTok大喜利</div>
+    <div>はじめる</div>
   </div>
 </template>
 
