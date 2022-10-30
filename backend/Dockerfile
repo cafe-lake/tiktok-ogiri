@@ -7,6 +7,9 @@ ADD docker-entrypoint.sh ./
 # pdo_mysql（mysqlのドライバ）をインストールする
 RUN docker-php-ext-install pdo_mysql
 RUN chmod 755 ./docker-entrypoint.sh
+RUN apt-get update
+RUN apt-get -y install libzip-dev
+RUN docker-php-ext-install zip
 CMD ["./docker-entrypoint.sh"]
 
 WORKDIR /var/www/laravel
