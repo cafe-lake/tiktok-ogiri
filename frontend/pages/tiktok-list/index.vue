@@ -4,7 +4,7 @@
     <div>
       <div v-for="n in 5" :key="n">
         <div>
-          <NuxtLink to="/tiktok-list/{n}"
+          <NuxtLink to="/tiktok-list/ここに動画のidかなあ"
             >ここにAPIから取得した動画のサムネを見せるとか？</NuxtLink
           >
         </div>
