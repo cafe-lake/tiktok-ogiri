@@ -1,7 +1,16 @@
 <template>
   <div>
     <div>TikTok大喜利</div>
-    <div>はじめる</div>
+    <div>
+      <button><NuxtLink to="/ranking">ランキングを見る</NuxtLink></button>
+    </div>
+    <div>
+      <button>
+        <NuxtLink to="/tiktok-list"
+          >大喜利するTikTok動画を一覧から選ぶ</NuxtLink
+        >
+      </button>
+    </div>
   </div>
 </template>
 
