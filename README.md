@@ -13,6 +13,9 @@
 ・Docker Desktop の tiktok-ogiri_backend_1 の CLI
 でコンテナ内に入り、php artisan migrate
 
+※今後 php artisan(laravel のコマンド)とか composer, npm 等のパッケージマネージャのコマンドもコンテナ内で実行してね
+git 以外はコンテナ内でという認識でも OK
+
 ### localhost にアクセスしてなんか表示されたら OK
 
 以下は俺的学びがあったやつ
