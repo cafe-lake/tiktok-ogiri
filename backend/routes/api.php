@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\GetRankingListController;
+use App\Http\Controllers\GetTikTokListController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 Route::post('/ranking/get-list', [GetRankingListController::class, '__invoke']);
+Route::post('/get-tiktok-list', [GetTikTokListController::class, '__invoke']);
